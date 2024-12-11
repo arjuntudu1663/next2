@@ -1,21 +1,115 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@media screen and (max-width:750px) { 
+
+  .changWidth{
+     
+    width: 100%;
+
   }
+
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@media screen and (max-width:750px){
+ 
+.scrollOnMobileNav{ 
+    
+  overflow-x:scroll;
+
+}
+
+}
+
+@media screen and (min-width:750px){
+ 
+.scrollOnMobileNav{ 
+    
+  width: 50%;
+
+}
+
+}
+
+@media screen and (max-width:750px){
+ 
+.scrollOnMobile{
+   
+  overflow-x:scroll;
+
+}
+
+}
+
+@media screen and (max-width:750) {
+
+.hideOnMobile{
+  display: none;
+}
+
+}
+
+@media screen and (min-width:750px){
+ 
+.scrollOnMobile{
+   
+  overflow-x:scroll;
+
+}
+
+}
+
+
+@media screen and (max-width:750px){
+ .marginLeftOnMobile{
+   margin-left: 50px;
+ }
+}
+
+
+@media screen and(max-width:750px) {
+ 
+ .marginLeftOnMobile {
+     margin-left: 15px;
+ }
+
+}
+
+@media screen and(min-width:750px) {
+ 
+.marginLeftOnMobile {
+    margin-left: 100px;
+}
+
+}
+
+@media screen and (max-width:750px){
+ 
+.changWidthLogo {
+   
+  width: 100%;
+
+}
+}
+
+
+@media screen and (min-width:750px){
+ 
+.changWidthLogo {
+   
+  width: 10%;
+
+}
+}
+
+.myInput{
+ 
+
+background-position: 2px 3px;
+
+}
+
+
+
+::-webkit-scrollbar {
+display: none;
 }
